@@ -1,6 +1,19 @@
 import random
 
-""" Bug Fix Explanation:
+""" 
+a. What did you learn about debugging in this activity?
+    I learned how important to debug and test your program for testcases, 
+    becuase I realized that even if your program runs, doesn't necessarily
+    mean that it is free of bugs. Looking out for potential bug by examing 
+    each part of your program while coding will help a lot during the 
+    debugging and testing phase.
+
+b. What coding practices do you think would help prevent similar bugs in the future?
+    To prevent similar bugs in the future, we should always test for different cases
+    or write test cases for different inputs in our program to catch potential bugs early. 
+    Use defensive programming by adding conditions like the one I used to handle edge cases. 
+
+Bug Fix Explanation:
     Previously, the calculate_average function would raise a ZeroDivisionError 
     if given an empty list, since it attempted to divide by len(numbers).
     This was fixed by adding a check: if the list is empty, return 0 instead.
